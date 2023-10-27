@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root {
+	--Green-color: #70C174;
+	--Light-green-color: #BEF3C0;
+	--Green-tertiry: #EFF7F2;
+	--Primary-color: #1D2130;
+	--Gray-color: #525560;
+	--Off-white-color: #EBF0F9;
+	--Border-color: #E5E5E5;
+	--Font-family: "Roboto";
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	margin-bottom: 96px;
+}
+/* Heading */
+
+.home-heading {
+	font-size: 64px;
+	font-family: var(--Font-family);
+	line-height: 76.8px;
+	font-style: normal;
+	font-weight: 700;
+}
+h1 {
+	font-family: var(--Font-family);
+	font-size: 56px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 67.2px;
+}
+h2 {
+	font-family: var(--Font-family);
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 57.6px;
+}
+h3 {
+	font-family: var(--Font-family);
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 42px;
+}
+h4 {
+	font-family: var(--Font-family);
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+}
+h5 {
+	font-family: var(--Font-family);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+}
+h6 {
+	font-family: var(--Font-family);
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+}
+.text-color {
+	color: var(--Primary-text, #1D2130);
+}
+/* paragraph  */
+
+.paragraph {
+	color: var(--Gray-color);
+	font-family: var(--Font-family);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25.6px;
+}
+.paragraph-small {
+	color: var(--Gray-color);
+	font-family: var(--Font-family);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22.4px;
+}
+/* Buttons */
+
+.primary-btn {
+	display: inline-flex;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 4px;
+	background: var(--Green-primary, #70C174);
+	backdrop-filter: blur(40px);
+}
+.secondary-btn {
+	display: inline-flex;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border-radius: 4px;
+	background: #FFF;
+	backdrop-filter: blur(40px);
+}
+.nav-btn {
+	border: none;
+	color: #FFF;
+	display: inline-flex;
+	padding: 12px 32px;
+	align-items: flex-start;
+	gap: 10px;
+	border-radius: 4px;
+	background: var(--Primary-color, #1D2130);
+}
+/* .space {
+    margin-bottom: 96px;
+} */
+
+logo .logo {
+	width: 130px;
+	height: 26.329px;
+	flex-shrink: 0;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+.list {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.list ul {
+	display: flex;
+	list-style: none;
+	gap: 40px;
+	flex-shrink: 0;
+}
+.list ul li a {
+	text-decoration: none;
+	color: var(--Gray-color);
+	font-family: var(--Font-family);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+header {
+	display: flex;
+	gap: 110px;
+}
+header .section {
+	display: flex;
+	gap: 24px;
+}
+header .text {
+	color: var(--Primary-text, #1D2130);
+	font-family: var(--Font-family);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/* what we do :  */
+
+.env {
+	background-color: var(--Green-tertiry);
+	padding: 20px 90px;
+	padding-bottom: 90px;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.box {
+	width: 360px;
+	padding: 20px;
+	text-align: left;
+}
+.box img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	margin-top: 30px;
+	float: left;
+}
+.row .box p {
+	padding-left: 40px;
+}
+.row .box h4 {
+	padding-left: 5px;
+}
+/* society  */
+
+.society {
+	text-align: center;
+	/* margin: 0 auto; */
+}
+.row-img {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+	padding-left: 96px;
+	padding-right: 96px;
+}
+.box-img {
+	width: 300px;
+	padding: 40px;
+	text-align: left;
+	border-radius: 8px;
+}
+.box-img.img1 {
+	background-image: url(./images/Tint.png);
+	background-repeat: no-repeat;
+}
+.box-img.img2 {
+	background-image: url(./images/Tint2.png);
+	background-repeat: no-repeat;
+}
+.box-img.img3 {
+	background-image: url(./images/Tint3.png);
+	background-repeat: no-repeat;
+}
+.long-img {
+	padding: 40px;
+	margin-left: 96px;
+	margin-right: 96px;
+	justify-content: center;
+	text-align: center;
+	border-radius: 8px;
+	background-image: url(./images/BG.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.long-img h2 {
+	color: white;
+}
+.btns a {
+	color: white;
+	text-decoration: none;
+	font-family: var(--Font-family);
+}
+.btns .secondary-btn {
+	color: black;
+	font-family: var(--Font-family);
+}
+.btns {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.box-img h3, .box-img .paragraph-small {
+	color: white;
+}
+.box-img a {
+	color: black;
+	font-family: var(--Font-family);
+	text-decoration: none;
+}
+/* NEWS SECTION  */
+
+.news-section {
+	padding-top: 90px;
+	margin: 0 auto;
+}
+.heading {
+	display: flex;
+	align-items: center;
+	padding-left: 96px;
+	padding-right: 96px;
+}
+hr {
+	flex: 1;
+	height: 1px;
+	background-color: #E5E5E5;
+	border: none;
+	margin: 0;
+	margin-left: 10px;
+}
+.news-cont {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.news-item {
+	flex: 1;
+	max-width: 300px;
+	margin: 10px;
+	padding: 20px;
+	border: none;
+	text-align: left;
+}
+.news-item img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+/* events */
+
+.section {
+	/* margin-left: 60px;
+    margin-top: 96px; */
+	text-align: left;
+}
+.section-div {
+	display: flex;
+	background: #BEF3C0;
+	width: 583px;
+	padding-left: 39px;
+	border-radius: 8px;
+	background: var(--Green-secondary, #BEF3C0);
+	margin-bottom: 96px;
+	margin-left: 96px;
+	margin-right: 96px;
+	margin-top: 6px;
+}
+.section-div1 {
+	top: 40px;
+	width: 80px;
+	margin-top: 16px;
+}
+.section-div1 h1, .section-div1 h6 {
+	margin: 0;
+}
+.event-content h6 {
+	color: var(--Primary-color);
+	font-family: var(--Font-family);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.event-title {
+	color: var(--Primary-color);
+	font-family: var(--Font-family);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 56px;
+}
+.section-div2 {
+	display: flex;
+	margin-top: -50px;
+	height: 160px;
+}
+.button-arr {
+	width: 60px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+/* footer */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #0B0706;
+	color: #fff;
+	padding-left: 96px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.footer-column {
+	flex: 1;
+	padding: 10px;
+	text-align: left;
+}
+.footer-column img {
+	max-width: 100px;
+	padding-top: 25px;
+}
+.footer-column a {
+	color: white;
+	font-family: var(--Font-family);
+	text-decoration: none;
+}
+footer ul {
+	list-style: none;
+	padding: 0;
+}
+footer ul li {
+	margin-bottom: 5px;
+	color: #FFF;
+	font-family: var(--Font-family);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22.4px;
+}
+footer h4 {
+	color: #FFF;
+	font-family: var(--Font-family);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 25.6px;
+}
+.footer h3 {
+	color: #FFF;
+	font-family: var(--Font-family);
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+}
+input[type="email"] {
+	width: 456px;
+	height: 64px;
+	padding: 5px;
+	margin: 5px 0;
+	background-color: #0B0706;
+	border-radius: 4px;
+	border: 1px solid rgba(235, 240, 249, 0.30);
+	flex: 1;
+}
+.subscribe-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+.subscribe-section a {
+	color: rgb(0, 0, 0);
+	font-family: var(--Font-family);
+	text-decoration: none;
+}
+.subscribe-section .secondary-btn {
+	padding: 6px 40px;
+	margin-right: 96px;
+}
+footer .secondary-btn {
+	height: 64px;
+	margin-left: -20px;
+	z-index: 2;
+}
+#styleinput {
+	color: rgba(235, 240, 249, 0.30);
+	font-family: var(--Font-family);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding-left: 24px;
+}
